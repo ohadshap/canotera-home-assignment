@@ -1,7 +1,7 @@
-# Laws Project
+# Canotera Home Assignment Project
 
 ## Description
-This project is a React application for managing laws. It allows users to upload JSON files containing law data, view laws, and switch between different languages (Hebrew and English).
+This project is a React application for managing laws from a default json file. It also allows users to upload JSON files containing law data, view laws, and switch between different languages (Hebrew and English).
 
 ## Installation
 1. Clone the repository.
