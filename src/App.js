@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Laws from './pages/Laws';
+import SideMenu from './pages/SideMenu';
+import FileUploader from './pages/FileUploader';
+import { StoreProvider } from './custom-hooks/store';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <SideMenu/>
+      <StoreProvider>
+      <Routes>
+        <Route path="/" element={<Laws />} />
+        <Route path="/FileUploader" element={<FileUploader />} />
+      </Routes>
+      </StoreProvider>
+    </>
+  )
 }
-
 export default App;

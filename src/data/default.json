@@ -1,0 +1,115 @@
+{
+    "laws": [
+      {
+        "id": "law_1",
+        "label": {
+          "en": "Criminal Law",
+          "he": "חוק פלילי"
+        },
+        "children": [
+          {
+            "id": "law_1_1",
+            "label": {
+              "en": "Property Crimes",
+              "he": "פשעי רכוש"
+            },
+            "children": [
+              {
+                "id": "law_1_1_1",
+                "label": {
+                  "en": "Burglary",
+                  "he": "פריצה"
+                }
+              },
+              {
+                "id": "law_1_1_2",
+                "label": {
+                  "en": "Arson",
+                  "he": "שריפה פלילית"
+                }
+              }
+            ]
+          },
+          {
+            "id": "law_1_2",
+            "label": {
+              "en": "Personal Crimes",
+              "he": "פשעים אישיים"
+            },
+            "children": [
+              {
+                "id": "law_1_2_1",
+                "label": {
+                  "en": "Assault",
+                  "he": "תקיפה"
+                }
+              },
+              {
+                "id": "law_1_2_2",
+                "label": {
+                  "en": "Battery",
+                  "he": "מתקפה"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "law_2",
+        "label": {
+          "en": "Civil Law",
+          "he": "חוק אזרחי"
+        },
+        "children": [
+          {
+            "id": "law_2_1",
+            "label": {
+              "en": "Contract Law",
+              "he": "חוק חוזים"
+            }
+          },
+          {
+            "id": "law_2_2",
+            "label": {
+              "en": "Tort Law",
+              "he": "חוק עוולות"
+            },
+            "children": [
+              {
+                "id": "law_2_2_1",
+                "label": {
+                  "en": "Negligence",
+                  "he": "רשלנות"
+                }
+              },
+              {
+                "id": "law_2_2_2",
+                "label": {
+                  "en": "Defamation",
+                  "he": "הוצאת דיבה"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "law_3",
+        "label": {
+          "en": "Constitutional Law",
+          "he": "חוקתי"
+        },
+        "children": [
+          {
+            "id": "law_3_1",
+            "label": {
+              "en": "Rights and Freedoms",
+              "he": "זכויות וחירויות"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Laws Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a React application for managing laws. It allows users to upload JSON files containing law data, view laws, and switch between different languages (Hebrew and English).
 
-## Available Scripts
+## Installation
+1. Clone the repository.
+2. Install dependencies using `npm install`.
 
-In the project directory, you can run:
+## Usage
+1. Start the development server using `npm start`.
+2. Access the application in your browser at `http://localhost:3000`.
+3. Use the side menu to navigate between the laws page and the file uploader page.
+4. On the file uploader page, select a JSON file containing law data and click upload to update the laws.
+5. On the laws page, click on a law to view its sub-laws (if any).
+6. Use the language switch button to switch between Hebrew and English.
+7. Use the restore default button to reset the laws to their default state.
 
-### `npm start`
+## Project Structure
+- **App.js**: Main component that sets up the routes and side menu.
+- **Laws.js**: Component for displaying the laws and handling language switching.
+- **LawItem.js**: Component for displaying an individual law.
+- **FileUploader.js**: Component for uploading JSON files and updating the laws.
+- **SideMenu.js**: Component for the side menu navigation.
+- **custom-hooks/store.js**: Custom hook for managing the application state using context.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencies
+- React
+- react-router-dom
+- @fortawesome/fontawesome-svg-core
+- @fortawesome/free-solid-svg-icons
+- @fortawesome/react-fontawesome
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
+The project is structured as follows:
+- **components**: Contains all the React components.
+- **styles**: Contains CSS files for styling the components.
+- **data**: Contains default JSON data for the laws.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome. Please open an issue or submit a pull request.

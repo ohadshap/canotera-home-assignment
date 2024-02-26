@@ -1,0 +1,35 @@
+.law-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    padding: 3vw;
+    cursor: pointer;
+    transition: transform 0.3s;
+    /* width: calc(100% - 20px); */
+    width: 70vw;
+    max-width: 80vw;
+}
+
+.law-item:hover {
+    transform: scale(1.02);
+}
+
+.law-item.expanded {
+    height: auto;
+    min-height: 100px;
+}
+
+.law-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-law-info {
+    margin-top: 5px;
+    color: blue;
+}
+
+.sub-law {
+    margin-left: 5vw;
+}

@@ -1,0 +1,10 @@
+main {
+    width: 95vw;
+    height: 100%;
+    padding: 15px;
+    margin-left: 13vw;
+}
+
+.button {
+    margin-bottom: 3vh;
+}
